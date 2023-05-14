@@ -1,0 +1,50 @@
+@font-face {
+  font-family: smesan-font;
+  src: url(assets/Norse-Bold.otf);
+}
+:root {
+  --button-bg: #596d48;
+  --border-color: #e5e7eb;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.container1 {
+  height: 100vh;
+  width: 35vw;
+  color: white;
+  background: url(assets/photo-1585202900225-6d3ac20a6962.avif) no-repeat fixed;
+}
+
+.container1 > p {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.container2 {
+  height: 100vh;
+  width: 65vw;
+}
+
+.logo {
+  font-family: smesan-font;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 70px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 200px;
+}
+
+.logo > img {
+  height: 100px;
+}
