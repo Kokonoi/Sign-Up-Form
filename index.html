@@ -8,36 +8,46 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
   </head>
   <body>
-    <div>KOKONOI</div>
-    <p>
-      This is not a real online service! You know you need something like this
-      in your life to help you realize your deepest dreams. Sign up
-      <em>now</em> to get started.
-    </p>
-    <p>You know you want to.</p>
-
-    <h3>Let's do this!</h3>
-    <form action="#" method="post">
-      <label for="firstName">FIRST NAME</label>
-      <input type="text" name="name" id="firstName" required />
-
-      <label for="lastName">LAST NAME</label>
-      <input type="text" name="surname" id="lastName" required />
-
-      <label for="mail">EMAIL</label>
-      <input type="email" name="email" id="mail" required />
-
-      <label for="number">PHONE NUMBER</label>
-      <input type="number" name="phoneNumber" id="number" required />
-
-      <label for="pass">PASSWORD</label>
-      <input type="password" name="password" id="pass" required />
-
-      <label for="confirmPass">CONFIRM PASSWORD</label>
-      <input type="password" name="password" id="confirmPass" required />
-
-      <button type="submit">Create Account</button>
-    </form>
-    <p>Already have an account? <a href="#">Log in</a></p>
+    <div class="container1">
+      <div class="logo">
+        <img src="assets/odin-lined.png" alt="logo" />
+        <div>KOKONOI</div>
+      </div>
+      <p>
+        Photo by Halie West on
+        <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a>
+      </p>
+    </div>
+    <div class="container2">
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <em>now</em> to get started.
+      </p>
+      <p>You know you want to.</p>
+      <form action="#" method="post">
+        <legend>Let's do this!</legend>
+        <label for="firstName">FIRST NAME</label>
+        <input type="text" name="name" id="firstName" required />
+        <label for="lastName">LAST NAME</label>
+        <input type="text" name="surname" id="lastName" required />
+        <label for="mail">EMAIL</label>
+        <input type="email" name="email" id="mail" required />
+        <label for="number">PHONE NUMBER</label>
+        <input type="number" name="phoneNumber" id="number" required />
+        <label for="pass">PASSWORD</label>
+        <input
+          type="password"
+          name="password"
+          id="pass"
+          minlength="8"
+          required
+        />
+        <label for="confirmPass">CONFIRM PASSWORD</label>
+        <input type="password" name="password" id="confirmPass" required />
+        <button type="submit">Create Account</button>
+      </form>
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
   </body>
 </html>
