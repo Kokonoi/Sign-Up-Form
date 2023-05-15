@@ -16,6 +16,7 @@ body {
 }
 
 .container1 {
+  position: relative;
   height: 100vh;
   width: 35vw;
   color: white;
@@ -23,9 +24,14 @@ body {
 }
 
 .container1 > p {
+  position: absolute;
   text-align: center;
-  position: fixed;
   bottom: 0;
+  width: 100%;
+}
+
+.container1 > p > a:visited {
+  color: white;
 }
 
 .container2 {
@@ -47,4 +53,22 @@ body {
 
 .logo > img {
   height: 100px;
+}
+
+.cont2-first {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+}
+
+.cont2-second {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+}
+
+.cont2-third {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
 }
