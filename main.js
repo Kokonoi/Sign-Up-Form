@@ -9,6 +9,7 @@ function checkPasswords() {
     password.style.borderColor = "red";
     confirmPassword.style.borderColor = "red";
   } else if (password.value === confirmPassword.value) {
+    password.setCustomValidity("");
     password.style.borderColor = "blue";
     confirmPassword.style.borderColor = "blue";
   }
