@@ -135,3 +135,14 @@ button {
   display: flex;
   flex-direction: column;
 }
+
+/* 
+:invalid
+:valid */
+input:not(:placeholder-shown) {
+  border-color: red;
+}
+
+input:valid {
+  border-color: blue;
+}
