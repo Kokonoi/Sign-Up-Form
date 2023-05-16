@@ -146,3 +146,46 @@ input:not(:placeholder-shown) {
 input:valid {
   border-color: blue;
 }
+
+@media screen and (max-width: 1150px) {
+  .form-cont {
+    gap: 1rem;
+  }
+  .container2,
+  .container1 {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  body {
+    display: inline;
+  }
+
+  .container1 {
+    width: 82vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container2 {
+    width: 80vh;
+  }
+
+  .cont2-third {
+    align-items: center;
+  }
+  .form-cont {
+    gap: 1rem;
+    justify-content: space-around;
+  }
+  legend {
+    text-align: center;
+  }
+  button {
+    margin: 2rem 1rem 0rem 1rem;
+  }
+  .cont2-third > p {
+    margin-left: 0;
+  }
+}
