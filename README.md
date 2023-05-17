@@ -2,13 +2,10 @@
 This is a simple sign-up page made with CSS and JS that is fully responsive. It provides a user-friendly interface for users to sign up for your website or application.
 
 <h3>Features</h3>
-Responsive design that adapts to different screen sizes and devices.
-Validations to ensure that users enter the required information correctly.
-
-Getting Started
-To use the sign-up page, follow these steps:
-
-Clone the repository:
+<ul>
+    <li>Responsive design that adapts to different screen sizes and devices.</li>
+    <li>Validations to ensure that users enter the required information correctly.</li>
+</ul>
 
 <h3>Usage</h3>
 <ol>
