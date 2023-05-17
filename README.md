@@ -1,6 +1,6 @@
 <h1>Sign Up Page</h1>
 This is a simple sign-up page made with CSS and JS that is fully responsive. It provides a user-friendly interface for users to sign up for your website or application.
-
+<hr>
 <h3>Features</h3>
 <ul>
     <li>Responsive design that adapts to different screen sizes and devices.</li>
